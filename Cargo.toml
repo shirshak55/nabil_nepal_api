@@ -1,0 +1,15 @@
+[package]
+name = "check_balance"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+futures = "0.3.17"
+reqwest = { version = "0.11.4", features=["json","cookies","gzip","default-tls"]}
+serde = { version = "1.0.130", features=["derive"]}
+serde_json = {version= "1.0.68", features=["preserve_order"]}
+tokio = { version = "1.12.0", features=["full"]}
+toml = "0.5.8"
+serde_urlencoded = "0.7"
+chrono = "0.4.19"
+simple_excel_writer = "0.1.8"

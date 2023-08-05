@@ -1,0 +1,8 @@
+use_account_idx = 0
+
+
+[[accounts]]
+phone=""
+password=""
+device_id=""
+pin=""
